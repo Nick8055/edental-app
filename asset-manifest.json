@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/edental-app/static/css/main.8aa059e4.css",
-    "main.js": "/edental-app/static/js/main.5b4559fd.js",
+    "main.css": "/edental-app/static/css/main.d3db5219.css",
+    "main.js": "/edental-app/static/js/main.6018b776.js",
     "static/js/787.3eef860b.chunk.js": "/edental-app/static/js/787.3eef860b.chunk.js",
     "static/media/Hero2.jpg": "/edental-app/static/media/Hero2.2648db988179414c21c5.jpg",
     "static/media/g4.jpg": "/edental-app/static/media/g4.373b8a7000815b0e661e.jpg",
@@ -31,12 +31,12 @@
     "static/media/i2.png": "/edental-app/static/media/i2.e8f1c8010a21965652e3.png",
     "static/media/i4.png": "/edental-app/static/media/i4.9d58784742b1ad6485d8.png",
     "index.html": "/edental-app/index.html",
-    "main.8aa059e4.css.map": "/edental-app/static/css/main.8aa059e4.css.map",
-    "main.5b4559fd.js.map": "/edental-app/static/js/main.5b4559fd.js.map",
+    "main.d3db5219.css.map": "/edental-app/static/css/main.d3db5219.css.map",
+    "main.6018b776.js.map": "/edental-app/static/js/main.6018b776.js.map",
     "787.3eef860b.chunk.js.map": "/edental-app/static/js/787.3eef860b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aa059e4.css",
-    "static/js/main.5b4559fd.js"
+    "static/css/main.d3db5219.css",
+    "static/js/main.6018b776.js"
   ]
 }
