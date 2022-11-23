@@ -31,6 +31,7 @@ import d3 from './images/Doctors/d3.jpg';
 import d4 from './images/Doctors/d4.jpg';
 import d5 from './images/Doctors/d5.jpg';
 import d6 from './images/Doctors/d6.jpg';
+import dT from './images/Doctors/dtemplate.jpg';
 
 function Service({sIcon, sHeading, sDesc}){
   return(
@@ -86,7 +87,7 @@ function App() {
           <div className='heroSlogan'>
           <div className='sloganSub1'>Welcome To E-Dental </div>
             <div>Orthodontic and<br/> Implant Centre</div>
-            <div className='sloganSub2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+            <div className='sloganSub2'>We value our patients highly, so we always provide the best treatments and medications for your health </div>
             <button className='appointmentButton'>Request An Appointment</button>
           </div>
           <div className='heroPicContainer'>
@@ -98,18 +99,8 @@ function App() {
 
       <div className='aboutUs' id='aboutUs'>
         <div className='aboutUsHeading'>About us</div>
-        <div className='aboutUsDesc'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-         a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-          but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-           1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking
-             at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as 
-             opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages 
-             and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many 
-             web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+        <div className='aboutUsDesc'>E-Dental is a leading dental implant and oral healthcare clinic in India. With ultra-modern facilities, we have earned a name in the dental implant and cosmetic dentistry arena globally. Our team of experts come cater to different specializations that are aimed at providing you with high quality dental solutions any time, anywhere.
+Being a multi-speciality dental clinic, our mavens span across different areas of dentistry right from endodontists to implant experts, paediatric dentistry (pedodontist), orthodontists, orofacial pain specialists, as well as smile designers and dental surgeons. Whether it is a smile correction treatment or root canal treatment, tooth whitening, and much more, we provide you with the right action for all your dental problems. The core team of Cosmodent aims at helping people with oral healthcare solutions to help them lead a better and confident life
             </div>
       </div>
 
@@ -117,14 +108,14 @@ function App() {
       <div className='services' id='services'>
         <div className='serviceHeader'>Services</div>
         <div className='serviceComponentsFlexbox'>
-          <Service sIcon={serviceIcon1} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
-          <Service sIcon={serviceIcon2} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
-          <Service sIcon={serviceIcon3} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
-          <Service sIcon={serviceIcon4} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
-          <Service sIcon={serviceIcon5} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
-          <Service sIcon={serviceIcon6} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
+          <Service sIcon={serviceIcon1} sHeading={"SCALING"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
+          <Service sIcon={serviceIcon2} sHeading={"CROWN"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
+          <Service sIcon={serviceIcon3} sHeading={"BONDING"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
+          <Service sIcon={serviceIcon4} sHeading={"IMPLANT"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
+          <Service sIcon={serviceIcon5} sHeading={"BRACES"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
+          <Service sIcon={serviceIcon6} sHeading={"POLISHING"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
           <Service sIcon={serviceIcon7} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
-          <Service sIcon={serviceIcon1} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service>
+          {/* <Service sIcon={serviceIcon1} sHeading={"ROOT CANAL"} sDesc={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "}></Service> */}
         </div>
       </div>
 
@@ -144,12 +135,12 @@ function App() {
       <div className='doctorSection' id='doctorSection'>
         <div className='doctorHeader'>Meet our Team</div>
         <div className='doctorFlexbox'>
-          <Doctor dPic={d1} dName={"Chandrasekhar MBBS"} dDesc={"+913456826357"}/>
-          <Doctor dPic={d2} dName={"Chandrasekhar MBBS"} dDesc={"+913456826357"}/>
-          <Doctor dPic={d3} dName={"Chandrasekhar MBBS"} dDesc={"+913456826357"}/>
-          <Doctor dPic={d4} dName={"Chandrasekhar MBBS"} dDesc={"+913456826357"}/>
-          <Doctor dPic={d5} dName={"Chandrasekhar MBBS"} dDesc={"+913456826357"}/>
-          <Doctor dPic={d6} dName={"Chandrasekhar MBBS"} dDesc={"+913456826357"}/>
+          <Doctor dPic={dT} dName={"Doctor's Name"} dDesc={"+913456826357"}/>
+          <Doctor dPic={dT} dName={"Doctor's Name"} dDesc={"+913456826357"}/>
+          <Doctor dPic={dT} dName={"Doctor's Name"} dDesc={"+913456826357"}/>
+          <Doctor dPic={dT} dName={"Doctor's Name"} dDesc={"+913456826357"}/>
+          <Doctor dPic={dT} dName={"Doctor's Name"} dDesc={"+913456826357"}/>
+          <Doctor dPic={dT} dName={"Doctor's Name"} dDesc={"+913456826357"}/>
         </div>
       </div>
 
