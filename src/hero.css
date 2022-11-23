@@ -1,6 +1,7 @@
 .HS{
     width: 100%;
     background-image: linear-gradient(to right,rgb(255, 115, 0,0.1), rgba(0, 145, 255, 0.1), white);
+    margin-top: 100px;
 }
 
 .heroSection{

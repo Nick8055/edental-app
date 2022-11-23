@@ -1,5 +1,6 @@
 import './App.css';
 import './navbar.css';
+import './navbar2.css';
 import './hero.css';
 import './aboutUs.css';
 import './services.css';
@@ -55,7 +56,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className='navbar'>
+      {/* <div className='navbar'>
         <a href="#"><img className='logo' src={logo}/></a>
         <div className='navlinkContainer'>
           <a href="#aboutUs" className='navlink'>About Us</a>
@@ -65,6 +66,18 @@ function App() {
           <a href="#footer" className='navlink'>Contact Us</a>
         </div>
         <button className='hamburgerIcon'><Hamburger/></button>
+      </div> */}
+
+      <div className='navbar2'>
+        <a href="#"><img className='logo2' src={logo}/></a>
+        <div className='navlinkContainer2'>
+          <a href="#aboutUs" className='navlink2'>About Us</a>
+          <a href="#services"  className='navlink2'>Services</a>
+          <a href="#gallery" className='navlink2'>Gallery</a>
+          <a href="#doctorSection" className='navlink2'>Doctors</a>
+          <a href="#footer" className='navlink2'>Contact Us</a>
+        </div>
+        <button className='hamburgerIcon2'><Hamburger/></button>
       </div>
 
 
