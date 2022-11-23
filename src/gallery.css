@@ -1,0 +1,31 @@
+.gallery{
+    background-color: rgba(0, 145, 255, 0.1);
+
+}
+
+
+.galleryHeader{
+    font-size: 40px;
+    color: 444444;
+    font-family: "Muli-Semi-Bold";
+    text-align: center;
+    padding-top: 80px;
+    /* padding-bottom: 50px; */
+}
+
+.galleryFlexbox{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    cursor: grab;
+    /* overflow: auto; */
+    margin-top: 50px;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+
+
+.galleryPic{
+    max-width: 450px;
+    height: 300px;
+}

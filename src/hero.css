@@ -1,0 +1,126 @@
+.HS{
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(255, 115, 0,0.1), rgba(0, 145, 255, 0.1), white);
+}
+
+.heroSection{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    /* margin-top: 80px; */
+    /* margin-bottom: 80px; */
+    height: 100vh;
+    /* background-image: linear-gradient(to right,rgb(255, 115, 0,0.1), rgba(0, 145, 255, 0.1)); */
+}
+
+.heroSlogan{
+    font-size: 60px;
+    font-family: "Muli-Bold";
+    width: 50%;
+    display: block;
+    align-items: center;
+    color: rgb(30, 80, 173);
+    height: 75%;
+    margin: auto auto;
+    /* color: rgb(221, 120, 53); */
+}
+
+.sloganSub1{
+    font-size: 35px;
+    font-family: "Muli-Light";
+    color: #3e3e3e;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.sloganSub2{
+    font-size: 20px;
+    font-family: "Muli-Medium";
+    color: #3e3e3e;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.heroPicContainer{
+    width: 700px;
+    margin: auto auto;
+}
+
+.heroPic{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.appointmentButton{
+    font-family: "Muli-Semi-Bold";
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border-style: solid;
+    border-color: rgb(222, 145, 0);
+    background-color: rgb(222, 145, 0);
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.appointmentButton:hover{
+    border-color: rgb(30, 80, 173);
+    color: rgb(30, 80, 173);
+    background-color: white;
+}
+
+@media only screen and (max-width: 1200px){
+    .heroSlogan{
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .heroSection{
+        display: block;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .heroSlogan{
+        width: 90%;
+        text-align: center;
+    }
+
+    .sloganSub1{
+        font-size: 25px;
+        margin-left: 10%;
+        font-family: "Muli-Regular";
+    }
+
+    .sloganSub2{
+        margin-left: 10%;
+    }
+
+    .heroPicContainer{
+        margin: auto auto;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .heroSlogan{
+        font-size: 40px;
+    }
+
+    .appointmentButton{
+        transform: scale(0.8);
+    }
+
+    .heroPicContainer{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+  .heroPicContainer{
+        width: 400px;
+    }
+}

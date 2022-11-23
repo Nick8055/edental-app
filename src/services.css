@@ -1,0 +1,62 @@
+.services{
+    padding-bottom: 80px;
+}
+
+.serviceHeader{
+    font-size: 40px;
+    color: rgb(0, 41, 111);
+    font-family: "Muli-Semi-Bold";
+    text-align: center;
+    padding-top: 80px;
+    /* padding-bottom: 50px; */
+}
+
+.serviceComponentsFlexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    gap: 40px;
+    transform: scale(0.8);
+}
+
+
+.serviceComponent{
+    border-style: solid;
+    border-color: orange;
+    border-width: 2px;
+    width: 300px;
+    border-radius: 20px;
+    /* cursor: pointer; */
+    transition: all 0.3s ease;
+}
+
+.serviceComponent:hover{
+    transform: scale(1.1);
+}
+
+.serviceIcon{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.serviceHeading{
+    font-size: 20px;
+    color: #444;
+    font-family: "Muli-Medium";
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.serviceDesc{
+    /* text-align: center; */
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 17px;
+    font-family: "Muli-Medium";
+    text-align: center;
+    margin-bottom: 10px;
+}

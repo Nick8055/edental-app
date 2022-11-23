@@ -1,0 +1,50 @@
+.doctorHeader{
+    font-size: 40px;
+    color: rgb(0, 41, 111);
+    font-family: "Muli-Semi-Bold";
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.doctorFlexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.doctorComponent{
+    width: 300px;
+}
+
+.doctorPic{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px 2px #888888;
+    /* border-style: solid;
+    border-width: 1.5px;
+    border-color: #444444; */
+}
+
+.doctorName{
+    font-size: 20px;
+    color: #444;
+    font-family: "Muli-Medium";
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.doctorDesc{
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 17px;
+    font-family: "Muli-Medium";
+    text-align: center;
+    margin-bottom: 30px;
+}
