@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/edental-app/static/css/main.218c5916.css",
-    "main.js": "/edental-app/static/js/main.2ff1bad3.js",
+    "main.js": "/edental-app/static/js/main.fa2ec604.js",
     "static/js/787.3eef860b.chunk.js": "/edental-app/static/js/787.3eef860b.chunk.js",
     "static/media/Hero2.jpg": "/edental-app/static/media/Hero2.2648db988179414c21c5.jpg",
     "static/media/g4.jpg": "/edental-app/static/media/g4.373b8a7000815b0e661e.jpg",
@@ -18,6 +18,7 @@
     "static/media/MULI-REGULAR.TTF": "/edental-app/static/media/MULI-REGULAR.e9aab0fdac684ccdc422.TTF",
     "static/media/d6.jpg": "/edental-app/static/media/d6.63eca86f734419b1859c.jpg",
     "static/media/d1.jpg": "/edental-app/static/media/d1.d15e0398705963573fcf.jpg",
+    "static/media/dtemplate.jpg": "/edental-app/static/media/dtemplate.2295af099b2abe5d5df7.jpg",
     "static/media/g1.jpg": "/edental-app/static/media/g1.e4360fb4432248194f46.jpg",
     "static/media/g3.jpg": "/edental-app/static/media/g3.f3343522aa074ef3c39a.jpg",
     "static/media/g2.jpg": "/edental-app/static/media/g2.4129f7d45cc98baeeb97.jpg",
@@ -32,11 +33,11 @@
     "static/media/i4.png": "/edental-app/static/media/i4.9d58784742b1ad6485d8.png",
     "index.html": "/edental-app/index.html",
     "main.218c5916.css.map": "/edental-app/static/css/main.218c5916.css.map",
-    "main.2ff1bad3.js.map": "/edental-app/static/js/main.2ff1bad3.js.map",
+    "main.fa2ec604.js.map": "/edental-app/static/js/main.fa2ec604.js.map",
     "787.3eef860b.chunk.js.map": "/edental-app/static/js/787.3eef860b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.218c5916.css",
-    "static/js/main.2ff1bad3.js"
+    "static/js/main.fa2ec604.js"
   ]
 }
