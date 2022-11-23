@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/edental/static/css/main.96149e94.css",
+    "main.js": "/edental/static/js/main.57c029b1.js",
+    "static/js/787.3eef860b.chunk.js": "/edental/static/js/787.3eef860b.chunk.js",
+    "static/media/Hero2.jpg": "/edental/static/media/Hero2.2648db988179414c21c5.jpg",
+    "static/media/g4.jpg": "/edental/static/media/g4.373b8a7000815b0e661e.jpg",
+    "static/media/d4.jpg": "/edental/static/media/d4.518946f34f4989ecfce5.jpg",
+    "static/media/d2.png": "/edental/static/media/d2.3bb7bdaaa4e1a8d624ed.png",
+    "static/media/Logo.png": "/edental/static/media/Logo.9dfb989d08f36d4efb73.png",
+    "static/media/MULI-SEMIBOLD.TTF": "/edental/static/media/MULI-SEMIBOLD.534f8b00662d5445104d.TTF",
+    "static/media/MULI-EXTRALIGHT.TTF": "/edental/static/media/MULI-EXTRALIGHT.2062d6e596fa20db5dc8.TTF",
+    "static/media/MULI-MEDIUM.TTF": "/edental/static/media/MULI-MEDIUM.b6c92c76aea74335f0de.TTF",
+    "static/media/MULI-BLACK.TTF": "/edental/static/media/MULI-BLACK.65e46745a5a5486857ac.TTF",
+    "static/media/MULI-EXTRABOLD.TTF": "/edental/static/media/MULI-EXTRABOLD.e59a298dcd54ab53886b.TTF",
+    "static/media/MULI-BOLD.TTF": "/edental/static/media/MULI-BOLD.85c0b343300dccfa10e7.TTF",
+    "static/media/MULI-LIGHT.TTF": "/edental/static/media/MULI-LIGHT.aade01402633f3b0d4f1.TTF",
+    "static/media/MULI-REGULAR.TTF": "/edental/static/media/MULI-REGULAR.e9aab0fdac684ccdc422.TTF",
+    "static/media/d6.jpg": "/edental/static/media/d6.63eca86f734419b1859c.jpg",
+    "static/media/d1.jpg": "/edental/static/media/d1.d15e0398705963573fcf.jpg",
+    "static/media/g1.jpg": "/edental/static/media/g1.e4360fb4432248194f46.jpg",
+    "static/media/g3.jpg": "/edental/static/media/g3.f3343522aa074ef3c39a.jpg",
+    "static/media/g2.jpg": "/edental/static/media/g2.4129f7d45cc98baeeb97.jpg",
+    "static/media/i7.png": "/edental/static/media/i7.d521bbb0e37e258106aa.png",
+    "static/media/i8.png": "/edental/static/media/i8.cafec495306572bc3209.png",
+    "static/media/i1.png": "/edental/static/media/i1.6e84bb4f68b4274f2866.png",
+    "static/media/d3.jpg": "/edental/static/media/d3.ba48542eb3bdd7c6c0c1.jpg",
+    "static/media/i6.png": "/edental/static/media/i6.c5706137749077a68807.png",
+    "static/media/d5.jpg": "/edental/static/media/d5.98e587decfcc9859c1e0.jpg",
+    "static/media/i3.png": "/edental/static/media/i3.935d978f04e3955d8b6d.png",
+    "static/media/i2.png": "/edental/static/media/i2.e8f1c8010a21965652e3.png",
+    "static/media/i4.png": "/edental/static/media/i4.9d58784742b1ad6485d8.png",
+    "index.html": "/edental/index.html",
+    "main.96149e94.css.map": "/edental/static/css/main.96149e94.css.map",
+    "main.57c029b1.js.map": "/edental/static/js/main.57c029b1.js.map",
+    "787.3eef860b.chunk.js.map": "/edental/static/js/787.3eef860b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96149e94.css",
+    "static/js/main.57c029b1.js"
+  ]
+}
