@@ -7,6 +7,7 @@ import './services.css';
 import './gallery.css';
 import './doctors.css';
 import './footer.css';
+import './sidebar.css';
 
 import logo from './images/Logo.png';
 import hero from './images/Hero2.jpg';
@@ -33,6 +34,8 @@ import d5 from './images/Doctors/d5.jpg';
 import d6 from './images/Doctors/d6.jpg';
 import dT from './images/Doctors/dtemplate.jpg';
 
+import {useState} from 'react';
+
 function Service({sIcon, sHeading, sDesc}){
   return(
     <div className='serviceComponent'>
@@ -53,7 +56,16 @@ function Doctor({dPic, dName, dDesc}){
   )
 }
 
+
+
 function App() {
+  const [isShown, setIsShown] = useState(false);
+
+  const HamburgerButton = event => {
+    // 👇️ toggle visibility
+    setIsShown(current => !current);
+  };
+
   return (
     <div className="App">
 
@@ -78,7 +90,22 @@ function App() {
           <a href="#doctorSection" className='navlink2'>Doctors</a>
           <a href="#footer" className='navlink2'>Contact Us</a>
         </div>
-        <button className='hamburgerIcon2'><Hamburger/></button>
+        <button onClick={HamburgerButton} className='hamburgerIcon2'><Hamburger/></button>
+      </div>
+
+      <div 
+      // style={{display: isShown ? 'block' : 'none'}}
+      className={ isShown ? 'sideBar' : 'sideBar2'}
+      
+      //  className='sideBar' 
+       id='sideBar'>
+      <div className='sidelinkContainer'>
+          <a href="#aboutUs" className='navlink2'>About Us</a>
+          <a href="#services"  className='navlink2'>Services</a>
+          <a href="#gallery" className='navlink2'>Gallery</a>
+          <a href="#doctorSection" className='navlink2'>Doctors</a>
+          <a href="#footer" className='navlink2'>Contact Us</a>
+        </div>
       </div>
 
 
