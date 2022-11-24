@@ -100,11 +100,11 @@ function App() {
       //  className='sideBar' 
        id='sideBar'>
       <div className='sidelinkContainer'>
-          <a href="#aboutUs" className='navlink2'>About Us</a>
-          <a href="#services"  className='navlink2'>Services</a>
-          <a href="#gallery" className='navlink2'>Gallery</a>
-          <a href="#doctorSection" className='navlink2'>Doctors</a>
-          <a href="#footer" className='navlink2'>Contact Us</a>
+          <a href="#aboutUs" className='sidelink2'>About Us</a>
+          <a href="#services"  className='sidelink2'>Services</a>
+          <a href="#gallery" className='sidelink2'>Gallery</a>
+          <a href="#doctorSection" className='sidelink2'>Doctors</a>
+          <a href="#footer" className='sidelink2'>Contact Us</a>
         </div>
       </div>
 
